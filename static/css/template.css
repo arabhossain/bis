@@ -1,0 +1,33 @@
+@import url("branding.css");
+
+*{
+    background-color: transparent;
+    color: #005cbf;
+    border: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#app{
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-dark);
+    display: block;
+    padding: 0;
+}
+#window{
+    height: 93vh;
+    background: #1c7430;
+    display: block;
+    width: 100%;
+}
+
+#start{
+    height: 7vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #30dc6f3d;
+    display: block;
+}
