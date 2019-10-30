@@ -4,6 +4,7 @@
     background-color: transparent;
     color: var(--color-dark);
     border: 0;
+    font-family: monospace;
 }
 
 body{
