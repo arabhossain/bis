@@ -57,7 +57,6 @@ iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, d
     color: var(--color-light);
     padding: 5px 0;
     padding-left: 4px;
-    border-radius: 5px;
 }
 
 #start > span{
