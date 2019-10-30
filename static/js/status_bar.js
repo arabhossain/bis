@@ -6,8 +6,8 @@ let status_bar = {
 
     generate : () => {
         status_bar.generated = [];
+        app_status_bar.innerHTML = '';
         status_bar.elems.forEach(function (elem) {
-
             let icon =document.createElement('i');
             icon.setAttribute('class', elem.icon+' align-middle');
 
