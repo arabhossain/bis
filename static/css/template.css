@@ -57,6 +57,7 @@ iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, d
     color: var(--color-light);
     padding: 5px 0;
     padding-left: 4px;
+    border-radius: 5px;
 }
 
 #start > span{
@@ -67,8 +68,8 @@ iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, d
     text-shadow: 0px 0px 10px #4a9440;
 }
 
-#start > span:hover, #start > span:focus{
-background-color: #005cbf;
+#start > span:hover, #start > span:focus,  #start > span.active{
+    background-color: #4dcc0d;
 }
 
 #start > span > i{
