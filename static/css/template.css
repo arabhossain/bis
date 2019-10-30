@@ -61,6 +61,8 @@ iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, d
 }
 
 #start > span{
+    margin-left: 1px;
+    border-radius: 5px;
     font-size: x-large;
     cursor: pointer;
     padding: 0px 10px;
