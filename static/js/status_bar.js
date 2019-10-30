@@ -43,6 +43,9 @@ let status_bar = {
     list : () => {
         return status_bar.elems;
     }
-}
+};
+
+
+
 
 export default status_bar;

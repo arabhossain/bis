@@ -16,17 +16,17 @@
     <link rel="stylesheet" href="static/css/template.css?v=<?php echo time() ?>">
 
     <title>Bangladesh Intelligence System</title>
+
 </head>
 <body>
+
 <div id="app" class="container-fluid window">
-    <div id="window">
-
-    </div>
-    <div id="start" class="">
-
-    </div>
+    <div id="window"></div>
+    <div id="start"></div>
 </div>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<div id="start-menus" class="d-none"></div>
+
 <script src="static/libs/jquery-3.3.1.slim.min.js"></script>
 <script src="static/libs/popper.min.js"></script>
 <script src="static/libs/bootstrap-4.2.1/js/bootstrap.min.js"></script>
