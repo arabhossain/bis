@@ -108,6 +108,11 @@ div#start-menus h1 {
     text-align: center;
 }
 
+div#start-menus > .row {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
 div#start-menus ul {
    list-style: none;
 }
