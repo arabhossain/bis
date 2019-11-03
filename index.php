@@ -6,6 +6,9 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
+    <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="static/img/favicon.ico" type="image/x-icon">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,7 +24,9 @@
 <body>
 
 <div id="app" class="container-fluid window">
-    <div id="window"></div>
+    <div id="window">
+        <div id="cli"></div>
+    </div>
     <div id="start"></div>
 </div>
 

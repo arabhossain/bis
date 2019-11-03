@@ -6,6 +6,9 @@
     border: 0;
     font-family: monospace;
 }
+*:focus {
+    outline: none;
+}
 
 body{
     line-height: 21px;
@@ -127,4 +130,14 @@ div#start-menus ul span, div#start-menus ul label{
 
 div#start-menus ul span > i{
     margin-right: 4px;
+}
+
+#cli{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 400px;
+    height: 500px;
+    color: var(--color-dark);
 }
