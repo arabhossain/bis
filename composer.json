@@ -11,16 +11,8 @@
   ],
   "repositories": [
     {
-      "type": "package",
-      "package": {
-        "name": "arabhossain/bis",
-        "version": "master",
-        "source": {
-          "url": "https://github.com/arabhossain/bis.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
+     "type": "vcs",
+     "url": "https://github.com/arabhossain/bis" 
     }
   ],
  "minimum-stability": "dev",
